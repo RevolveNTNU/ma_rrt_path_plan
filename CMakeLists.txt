@@ -13,8 +13,10 @@ find_package(catkin REQUIRED COMPONENTS
   geometry_msgs
   message_filters
   message_generation
-  egn_messages
+  rdv_msgs
 )
+catkin_python_setup()
+
 
 ## System dependencies are found with CMake's conventions
 # find_package(Boost REQUIRED COMPONENTS system)
